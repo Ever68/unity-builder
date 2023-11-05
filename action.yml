@@ -212,7 +212,7 @@ inputs:
     required: false
     description: 'The Unity licensing server address to use for activating Unity.'
   dockerWorkspacePath:
-    default: '/github/workspace'
+    default: '/home/makcimbx/Docker/GiteaRunner/workspace'
     required: false
     description:
       'The path to mount the workspace inside the docker container. For windows, leave out the drive letter. For example
